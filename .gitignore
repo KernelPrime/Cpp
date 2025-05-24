@@ -30,3 +30,32 @@
 *.exe
 *.out
 *.app
+
+# Debug symbols and linker intermediate files
+*.pdb
+*.ilk
+
+# Visual Studio specific files
+*.vcxproj.user
+*.suo
+*.ncb
+*.opensdf
+*.sdf
+*.cache
+*.log
+*.tlog
+*.VC.db
+.vs/
+
+# VS Code
+.vscode/
+
+# Neovim swap files
+*.swp
+
+# CMake and Ninja (optional, si usas)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
